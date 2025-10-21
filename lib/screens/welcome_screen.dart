@@ -20,7 +20,7 @@ class WelcomeScreen extends StatelessWidget {
           Positioned(
             top: 258,
             left: 26,
-            child: Container(
+            child: SizedBox(
               width: 381,
               child: Text(
                 "Please login or sign up to continue using our app",
@@ -31,7 +31,7 @@ class WelcomeScreen extends StatelessWidget {
           Positioned(
             top: 390,
             left: 90,
-            child: Container(
+            child: SizedBox(
               width: 190,
               height: 170,
               child: SvgPicture.asset('assets/Logo.svg'),
@@ -40,7 +40,7 @@ class WelcomeScreen extends StatelessWidget {
           Positioned(
             top: 662,
             left: 100,
-            child: Container(
+            child: SizedBox(
               width: 217,
               child: Text(
                 "Let’s get started !",
@@ -51,7 +51,7 @@ class WelcomeScreen extends StatelessWidget {
           Positioned(
             top: 708,
             left: 50,
-            child: Container(
+            child: SizedBox(
               width: 359,
               child: Text(
                 "sign up now and experience a new level of productivity.",
@@ -62,7 +62,7 @@ class WelcomeScreen extends StatelessWidget {
           Positioned(
             top: 781,
             left: 155,
-            child: Container(
+            child: SizedBox(
               width: 78,
               height: 75,
               child: ElevatedButton(
