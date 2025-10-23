@@ -20,7 +20,7 @@ class _LogInState extends State<LogIn> {
     final screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
-      body: SingleChildScrollView(
+      body: SafeArea(
         child: SizedBox(
           width: screenWidth,
           height: screenHeight,

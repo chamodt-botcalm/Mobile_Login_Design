@@ -20,7 +20,7 @@ class _SignUpState extends State<SignUp> {
     final screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
-      body: SingleChildScrollView(
+      body: SafeArea(
         child: SizedBox(
           width: screenWidth,
           height: screenHeight,
